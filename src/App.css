@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+.myphoto {
+	height: 30vmin;
+	pointer-events: none;
+}
+
+.birdsNest {
+	padding-top: 30px;
+	height: 20vmin;
+}
+	
+.githubLogo {
+	height: 12vmin;
+	margin-right: 60px;
+	cursor: pointer;
+}
+
+.linkedInLogo {
+	height: 12vmin;
+	cursor: pointer;
+}
+
+.links {
+	font-family: "Arial";
+	color: whitesmoke;
+	text-shadow: 0 0 0.25em #1da9cc;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,18 +41,83 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
+  min-height: 10vh;
   display: flex;
+  margin: 0;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.homepage {
+	text-shadow: 0 0 0.20em #1da9cc;
+	background-image: url('./assets/codetextile.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding-Bottom: 50px;
+	padding-Top: 50px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+.leftColumn {
+	flex: 50%;
+	padding-top: 150px;
+}
+
+.midColumn {
+	flex: 50%;
+	padding-top: 100px;
+}
+
+.rightColumn {
+	flex: 25%;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin-right: 5px;
+	background-color: darkslategrey;
+}
+
+.rightColBox {
+	width: 100%;
+	display: flex;
+}
+
+.colBox {
+	flex: 50%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.logos {
+	margin-top: 20px;
+}
+
+.Main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footerText {
+	color: black;
+	margin: 0px;
+	background-color: #282c34;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +127,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	padding: 10px;
+	/*border: 3px inset grey;*/
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-shadow: 0 0 0.15em #1da9cc;
+}
+
+nav {
+	
 }
