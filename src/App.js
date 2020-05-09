@@ -66,6 +66,11 @@ class App extends Component {
 			  Learn React
 			</a>
 			 </div>*/}
+			<div className="footer">
+			<div className="footerText">
+			<p style={{margin: "0px", fontSize: 15}}>© 2020 Reed Posehn.</p>
+			</div>
+			</div>
 		</div>
 	  );
 	}
@@ -95,7 +100,7 @@ class Home extends Component {
 			<div className="whole">
 			<div className="home">
 				<div className="Main">
-					<h1 className="homepage">Homepage</h1>
+					<h1 className="headerImage">Homepage</h1>
 					<div className="row">
 					<div className="leftColumn">
 						<img src={photo} className="myphoto" />
@@ -134,7 +139,7 @@ class Home extends Component {
 							</div>
 							<div className="colBox">
 							<p style={{paddingTop: "10px", fontSize: 15, color: "black", fontweight: "bold", paddingRight: 5}}>Android app dev<br/>Application based form-building<br/>Cognos Report Building<br/>
-							Commandline and IDE Programming<br/>Some Power BI<br/>Active Directory and Admin Duties<br/>Supporting clients and Business</p>
+							Commandline and IDE<br/>Administration<br/>Supporting clients and Business</p>
 							</div>
 						</div>
 						<div className="rightColBox">
@@ -164,11 +169,6 @@ class Home extends Component {
 					</div>
 				</div>
 			</div>
-			<div className="footer">
-			<div className="footerText">
-			<p style={{margin: "0px", fontSize: 15}}>© 2020 Reed Posehn.</p>
-			</div>
-			</div>
 			</div>
 		);
 	}
@@ -178,7 +178,37 @@ class RecentFluctuations extends Component {
 	render () {
 		return (
 			<div className='recentFluc'>
-			<h1>Recent Highs and Lows</h1>
+				<h1 className='headerImage'>Recent Highs and Lows</h1>
+				<div className='stockTable'>
+					<div className='stockRow'>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+					</div>
+					<div className='stockRow'>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+						<div className="stockColumn">
+							<p>test</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}
