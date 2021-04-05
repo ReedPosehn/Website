@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import photo from './assets/Me.jpg';
 import birdsNest from './assets/MandyBirdsNest.PNG';
 import BothLogos from './LogoComponents.js';
 
-import Styles from './App.css';
+import styles from './styling.module.css'; 
 import { NavLink, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -57,9 +56,9 @@ class Home extends Component {
 					<h1 className="headerImage">Homepage</h1>
 					<div className="row">
 					<div className="leftColumn">
-						<img src={photo} className="myphoto" />
+						<img src={photo} className={styles.myphoto} />
 						<p className="links">Links to Github and LinkedIn</p>	 
-						<div className="logos">
+						<div className={styles.logos}>
 						<BothLogos />
 						</div>
 					</div>
@@ -74,36 +73,36 @@ class Home extends Component {
 					</div>
 
 					<div className="rightColumn">
-						<img src={birdsNest} className="birdsNest" />
+						<img src={birdsNest} className={styles.birdsNest} />
 						<div className="rightColBox">
 							<div className="colBox">
-							<p style={{paddingTop: "10px", fontSize: 15, color: "black", fontWeight: "bold"}}>Primary Skills:</p>
+							<p className={styles.descHeaderText}>Primary Skills:</p>
 							</div>
 							<div className="colBox">
-							<p style={{paddingTop: "10px", fontSize: 15, color: "black", fontweight: "bold", paddingRight: 5}}>Python, Java, C, C++, C#,HTML, CSS, JavaScript, SQL</p>
+							<p className={styles.descText}>Python, Java, C, C++, C#,HTML, CSS, JavaScript, SQL</p>
 							</div>
 						</div>
 						<div className="rightColBox">
 							<div className="colBox">
-							<p style={{paddingTop: "10px", fontSize: 15, color: "black", fontWeight: "bold"}}>Applications:</p>
+							<p className={styles.descHeaderText}>Applications:</p>
 							</div>
 							<div className="colBox">
-							<p style={{paddingTop: "10px", fontSize: 15, color: "black", fontweight: "bold", paddingRight: 5}}>Android app dev<br/>Application based form-building<br/>Cognos Report Building<br/>
+							<p className={styles.descText}>Android app dev<br/>Application based form-building<br/>Cognos Report Building<br/>
 							Commandline and IDE<br/>Administration<br/>Supporting clients and Business</p>
 							</div>
 						</div>
 						<div className="rightColBox">
 							<div className="colBox">
-							<p style={{paddingTop: "10px", marginBottom: "1px", fontSize: 15, color: "black", fontWeight: "bold"}}>School Projects&emsp;&emsp;&emsp;Subjects Studied:</p>
+							<p className={styles.descHeaderText}>School Projects&emsp;&emsp;&emsp;Subjects Studied:</p>
 							</div>
 						</div>
 						<div className="rightColBox">
 							<div className="colBox">
-							<p style={{marginTop: "1px", fontSize: 15, color: "black"}}>Flight Simulator<br/>Chat Room<br/>Shell<br/>Kernal alterations<br/>Web Crawler<br/>Threading<br/>Intro AI Programs<br/>
+							<p className={styles.descTextVert}>Flight Simulator<br/>Chat Room<br/>Shell<br/>Kernal alterations<br/>Web Crawler<br/>Threading<br/>Intro AI Programs<br/>
 							Web Services</p>
 							</div>
 							<div className="colBox">
-							<p style={{marginTop: "1px", fontSize: 15, color: "black", fontweight: "bold", paddingRight: 5}}>Data Structures & Algorithms<br/>Computer Architecture<br/>Object Oriented Programming<br/>
+							<p className={styles.descTextVert}>Data Structures & Algorithms<br/>Computer Architecture<br/>Object Oriented Programming<br/>
 							Operating Systems<br/>Databases<br/>Software Engineering<br/>Artificial Intelligence<br/>Web Programming<br/>GUIs<br/>Mobile and Cloud</p>
 							</div>
 						</div>

@@ -7,27 +7,6 @@
   pointer-events: none;
 }
 
-.myphoto {
-	height: 30vmin;
-	pointer-events: none;
-}
-
-.birdsNest {
-	padding-top: 30px;
-	height: 20vmin;
-}
-	
-.githubLogo {
-	height: 12vmin;
-	margin-right: 60px;
-	cursor: pointer;
-}
-
-.linkedInLogo {
-	height: 12vmin;
-	cursor: pointer;
-}
-
 .links {
 	font-family: "Arial";
 	color: whitesmoke;
@@ -94,35 +73,9 @@
 	flex: 50%;
 }
 
-.stockTable {
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.stockRow {
-	width: 100%;
-	display: flex;
-	box-sizing: border-box;
-	padding-top: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.stockColumn {
-	width: 25%;
-	height: 10em;
-	outline-style: solid;
-	outline-color: #282c48;
-	outline-offset:-30px;
-}
-
 .row {
 	width: 100%;
 	display: flex;
-}
-
-.logos {
-	margin-top: 20px;
 }
 
 .Main {
@@ -151,11 +104,6 @@
   }
 }
 
-.recentFluc {
-	background-color: #282c34;
-	min-height: 100vh;
-}
-
 nav ul {
 	list-style: none;
 	display: flex;
@@ -173,8 +121,4 @@ nav ul li a{
 
 nav ul li a:hover{
 	text-shadow: 0 0 0.15em #1da9cc;
-}
-
-nav {
-	
 }

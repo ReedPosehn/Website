@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
-import photo from './assets/3d.jpg';
 import github from './assets/GithubLogo.png';
 import linkedIn from './assets/LinkedInLogo.png';
 
 import './App.css';
-import { NavLink, Switch, Route } from 'react-router-dom';
-
+import styles from './styling.module.css';
 // Defines the Github Logo, with link
 class GithubLogo extends Component  {
 	handleClick() {
@@ -15,7 +12,7 @@ class GithubLogo extends Component  {
 	
 	render() {
 		return (
-			<img src={github} className="githubLogo" onClick={this.handleClick}/>
+			<img src={github} className={styles.githubLogo} onClick={this.handleClick}/>
 		);
 	}
 }
@@ -27,7 +24,7 @@ class LinkedInLogo extends Component  {
 	
 	render() {
 		return (
-			<img src={linkedIn} className="linkedInLogo" onClick={this.handleClick}/>
+			<img src={linkedIn} className={styles.linkedInLogo} onClick={this.handleClick}/>
 		);
 	}
 }

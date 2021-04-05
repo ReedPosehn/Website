@@ -1,0 +1,44 @@
+.descHeaderText {
+	padding-Top: 10px;
+	font-size: 15px;
+	color: black;
+	font-Weight: bold;
+}
+
+.descText {
+    padding-Top: 10px;
+    font-size: 15px;
+    color: black;
+    padding-Right: 5px;
+}
+
+.descTextVert {
+    margin-Top: 1px;
+    font-size: 15px;
+    color: black;
+}
+
+.logos {
+	margin-top: 20px;
+}
+
+.githubLogo {
+	height: 12vmin;
+	margin-right: 60px;
+	cursor: pointer;
+}
+
+.linkedInLogo {
+	height: 12vmin;
+	cursor: pointer;
+}
+
+.myphoto {
+	height: 30vmin;
+	pointer-events: none;
+}
+
+.birdsNest {
+	padding-top: 30px;
+	height: 20vmin;
+}
