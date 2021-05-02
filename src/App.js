@@ -56,20 +56,20 @@ class Home extends Component {
 					<h1 className="headerImage">Homepage</h1>
 					<div className="row">
 					<div className="leftColumn">
-						<img src={photo} className={styles.myphoto} />
+						<img src={photo} className={styles.myphoto}/>
 						<p className="links">Links to Github and LinkedIn</p>	 
 						<div className={styles.logos}>
 						<BothLogos />
 						</div>
 					</div>
 					<div style={{margin: "50px"}}className="midColumn">
-					<p style={{margin: "1px", color: "white", fontSize: 30}}>Bachelor of Science: Computer Science</p>
-					<p style={{margin: "1px", color: "whitesmoke", fontSize: 25}}>University of Saskatchewan</p>
-					<p style={{margin: "1px", color: "whitesmoke", fontSize: 20}}>09/2015 - 12/2019</p>
-					<p style={{marginTop: "100px", marginBottom: "1px", color: "whitesmoke", fontSize: 30}}>Solvera Solutions - Application Analyst</p>
-					<p style={{margin: "1px", color: "whitesmoke", fontSize: 20}}>04/2018 - Present</p>
-					<p style={{marginTop: "50px", marginBottom: "1px", color: "whitesmoke", fontSize: 30}}>Clients</p>
-					<p style={{margin: "1px", color: "whitesmoke", fontSize: 25}}>Nutrien - EtQ Developer (Desktop/Mobile Application)</p>
+					<p style={{margin: "1px", color: "white", fontSize: 30, fontfamily: "Georgia", fontStyle: "Italic"}}>Bachelor of Science: Computer Science</p>
+					<p style={{margin: "1px", color: "whitesmoke", fontSize: 25, fontfamily: "Georgia", fontStyle: "Italic"}}>University of Saskatchewan</p>
+					<p style={{margin: "1px", color: "whitesmoke", fontSize: 20, fontfamily: "Georgia", fontStyle: "Italic"}}>09/2015 - 12/2019</p>
+					<p style={{marginTop: "100px", marginBottom: "1px", color: "whitesmoke", fontSize: 30, fontfamily: "Georgia", fontStyle: "Italic"}}>Solvera Solutions - Application Analyst</p>
+					<p style={{margin: "1px", color: "whitesmoke", fontSize: 20, fontfamily: "Georgia", fontStyle: "Italic"}}>04/2018 - Present</p>
+					<p style={{marginTop: "50px", marginBottom: "1px", color: "whitesmoke", fontSize: 30, fontfamily: "Georgia", fontStyle: "Italic"}}>Clients</p>
+					<p style={{margin: "1px", color: "whitesmoke", fontSize: 25, fontfamily: "Georgia", fontStyle: "Italic"}}>Nutrien - EtQ Developer (Desktop/Mobile Application)</p>
 					</div>
 
 					<div className="rightColumn">
