@@ -19,7 +19,7 @@
   }
 }
 
-.App-header {
+.MainNav {
   background-color: white;
   min-height: 10vh;
   display: flex;
@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 10px outset black;
 }
 
 .App-link {
@@ -58,13 +58,13 @@
 
 .rightColumn {
 	flex: 25%;
-	border: 2px solid black;
-	border-radius: 25px;
+	border-left: 2px solid rgba(255, 255, 255, 0.5);
 	margin-right: 5px;
-	background-color: darkslategrey;
+	margin-top: 15px;
+	background-color: 282c34;
 }
 
-.rightColBox {
+.outerColBox {
 	width: 100%;
 	display: flex;
 }
@@ -73,12 +73,17 @@
 	flex: 50%;
 }
 
+.aboutColumn {
+	margin: center;
+	width: 33%;
+}
+
 .row {
 	width: 100%;
 	display: flex;
 }
 
-.Main {
+.Background {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -87,6 +92,22 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.goalText {
+	text-align: left;
+	margin-left: 10%;
+	font-size: 20px;
+}
+
+.goalYear {
+	text-align: left;
+	margin-left: 10%;
+	font-size: 25px;
+}
+
+.goalDiv {
+	width: 100%;
 }
 
 .footerText {
