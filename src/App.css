@@ -56,26 +56,11 @@
 	padding-top: 100px;
 }
 
-.rightColumn {
-	flex: 25%;
-	border-left: 2px solid rgba(255, 255, 255, 0.5);
-	margin-right: 5px;
-	margin-top: 15px;
-	background-color: 282c34;
-}
-
-.outerColBox {
-	width: 100%;
-	display: flex;
-}
-
-.colBox {
-	flex: 50%;
-}
-
-.aboutColumn {
-	margin: center;
-	width: 33%;
+.achieveText {
+	margin: 1px;
+	color: whitesmoke;
+	font-family: Georgia;
+	font-style: Italic;
 }
 
 .row {
